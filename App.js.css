@@ -1,0 +1,54 @@
+import React from 'react';
+import './App.css';
+
+const App = () => {
+    return (
+        <div>
+            <header>
+                <h1>FRAUDULENT TRANSACTION Mockups</h1>
+            </header>
+
+            <div className="container">
+                <h2>Application Layout</h2>
+
+                <div className="mockup">
+                    <h3>1. Login Screen</h3>
+                    <img 
+                        src="https://t3.ftcdn.net/jpg/02/74/55/62/240_F_274556263_2EpOqT3GC8bksExIspTsh5vyTt2Zykjr.jpg" 
+                        alt="Login screen Mockup" 
+                    />
+                </div>
+
+                <div className="mockup">
+                    <h3>2. Dashboard Overview</h3>
+                    <img 
+                        src="https://www.slideteam.net/media/catalog/product/cache/1280x720/d/a/dashboard_overview_for_detecting_fraud_transaction_slide01.jpg" 
+                        alt="Dashboard Mockup" 
+                    />
+                </div>
+
+                <div className="mockup">
+                    <h3>3. Transaction Alerts</h3>
+                    <img 
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgHz8pQajiTo4ZDEp8pcedDKQ7E7gVBzum9A&s" 
+                        alt="Transaction Alerts Mockup" 
+                    />
+                </div>
+
+                <div className="mockup">
+                    <h3>4. Recent Transactions</h3>
+                    <img 
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQorJJM86QKZy7VHGRpvHeHxzC4vq16bTuzwA&s" 
+                        alt="Recent Transactions Mockup" 
+                    />
+                </div>
+            </div>
+
+            <footer>
+                <p>&copy; 2024 FRAUDULET. All rights reserved.</p>
+            </footer>
+        </div>
+    );
+}
+
+export default App;
